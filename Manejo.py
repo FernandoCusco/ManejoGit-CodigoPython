@@ -17,4 +17,7 @@ print('Soy un diccionario: ', diccionario)
 print(diccionario.get('triangulo'))
 
 
-
+#diccionario con diferentes tipos de datos
+diccionario1 = {'clave':'valor', 'nombre':'Fernando', 'apellido':'Cusco', 'edad':23, 'peso':110.2, 'estado':False}
+print(diccionario1.keys())
+print(diccionario1.values())
