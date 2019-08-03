@@ -23,7 +23,6 @@ print(diccionario1.keys())
 print(diccionario1.values())
 
 
-
 #sentencias de control
 
 #if
@@ -43,6 +42,8 @@ print(nivelMedicina)
 
 #ciclos
 
+#while
+
 contador = 0
 tm = 0
 while(contador < 11):
@@ -51,7 +52,22 @@ while(contador < 11):
 	contador+=1
 
 
+#for
 
+for i in range(1, 101):
+	print(i)
+
+#suma 10 primero numeros
+suma = 0
+for i in range(0, 11):
+	suma = i + suma
+	print('suma: ', suma)
+
+
+frutas = ['manzana', 'pera', 'durazno', 'fresa', 'banana', 'mandarina', 'naranja']
+for i in range(len(frutas)):
+	if i >= 3 and i <= 5:
+		print(i, frutas[i])
 
 
 
