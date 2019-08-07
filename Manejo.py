@@ -71,6 +71,14 @@ for i in range(len(frutas)):
 
 
 
+#Funciones lambda
+#suma
+mi_funcion = lambda numero1, numero2: numero1 + numero2
+total = mi_funcion(12, 54)
+print(total)
+
+x = "hola"
+
 
 
 
